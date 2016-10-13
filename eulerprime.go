@@ -2,7 +2,6 @@ package eulerprime
 
 import (
 	"errors"
-	"fmt"
 	"log"
 	"math"
 	"strconv"
@@ -49,8 +48,4 @@ func EulerPrime(x, y int) (int64, error) {
 	}
 
 	return 0, errors.New("Euler prime not found")
-}
-
-func main() {
-	fmt.Println(EulerPrime(5, 12))
 }

@@ -12,3 +12,5 @@ $ go get -u github.com/coolguru/euler-prime
 ```
 ### Reference
 http://google-tale.blogspot.com/2008/07/google-billboard-puzzle.html
+
+### TODO add more details on valid inputs and api signature. 
